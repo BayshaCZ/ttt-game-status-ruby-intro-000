@@ -37,7 +37,7 @@ end
 
 def winner(board)
   win_combination = won?(board)
-  unless win_combination != nil
+  unless win_combination == nil
     board[win_combination[0]]
   end
 end
